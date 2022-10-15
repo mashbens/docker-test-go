@@ -1,9 +1,9 @@
 package controllers
 
 import (
+	"app-test/config"
+	"app-test/models"
 	"net/http"
-	"postgresql-gorm/config"
-	"postgresql-gorm/models"
 
 	"github.com/labstack/echo/v4"
 )
